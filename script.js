@@ -18,6 +18,7 @@ async function fetchRelatedWords(word) {
 }
 
 //notes
+//https://chat.openai.com/c/fcc82621-2a06-4825-abfa-f1ec37081375
 /* 
 Check the tense of the word and the action of it. verb or adjective etc.
 e.g. was scary or is scary. this changes the synonym that can be used
