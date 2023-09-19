@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eloquence Game</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <button id="nextButton">Next</button>
+  <div id="game">
+    <h1 id="category"></h1>
+    <p id="phrase"></p>
+    <div id="correctWordsList"></div>
+    <input type="text" id="userInput">
+    <button onclick="checkAnswer()">Submit</button>
+    <p id="timer">30</p>
+    <p id="score">Score: 0</p>
+  </div>
+  <div id="creativeWords" style="display:none;"></div> <!-- Add this line -->
+  <script src="script.js"></script>
+</body>
+</html>
