@@ -19,7 +19,7 @@ async function fetchRelatedWords(word) {
 
 //notes
 /* 
-Check the tense of the word before the last
+Check the tense of the word and the action of it. verb or adjective etc.
 e.g. was scary or is scary. this changes the synonym that can be used
 for example you can't use entertained, it has to be was 'entertainining'
 
