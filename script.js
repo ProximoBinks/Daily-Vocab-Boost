@@ -17,6 +17,15 @@ async function fetchRelatedWords(word) {
     return data.map(item => item.word);
 }
 
+//notes
+/* 
+Check the tense of the word before the last
+e.g. was scary or is scary. this changes the synonym that can be used
+for example you can't use entertained, it has to be was 'entertainining'
+
+*/
+
+
 let phrases = [
     {
         category: 'Be more extreme',

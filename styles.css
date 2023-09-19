@@ -1,9 +1,17 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 #game {
     text-align: center;
     margin-top: 50px;
-  }
+}
 
-
-#correctWordsList{
+#correctWordsList {
     margin-bottom: 10px;
+}
+
+button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
